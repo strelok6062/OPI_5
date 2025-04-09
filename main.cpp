@@ -126,7 +126,7 @@ int main() {
     print_counts(uniform_data, "std::uniform_int_distribution", std::cout);
     print_counts(normal_data, "std::normal_distribution", std::cout);
 
-    std::cout << "save in graphs.txt" << std::endl;
+    std::cout << "save in fail graphs.txt" << std::endl;
 
     return 0;
 }
