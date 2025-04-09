@@ -98,11 +98,11 @@ int main() {
     int min;
     int max;
     int count;
-    std::cout << "min: ";
+    std::cout << "min range : ";
     std::cin >> min;
-    std::cout << "max: ";
+    std::cout << "max range : ";
     std::cin >> max;
-    std::cout << "size: ";
+    std::cout << "size range : ";
     std::cin >> count;
     std::map<int, int> rand_data;
     std::map<int, int> uniform_data;
